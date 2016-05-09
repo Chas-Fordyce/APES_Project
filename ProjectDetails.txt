@@ -1,9 +1,10 @@
 APES Final Project
 
 === Fishing and Mining Game ===
-*Accurate, real-life info
-	-Educational as well as fun
 
+** Basics **
+- Accurate, real-life info
+	- Educational as well as fun
 - One character managing one or both companies
 	- Mining
 	- Fishing
@@ -18,3 +19,8 @@ APES Final Project
 - Random events
 	- Low/high fish
 	- Natural Disaster
+
+** Other Details **
+- We each do in-depth research of mining and fishing
+	- Curren is mining
+	- Chas is fishing
