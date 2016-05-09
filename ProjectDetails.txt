@@ -42,4 +42,7 @@ APES Final Project
   disasters to keep things fresh (probably the last thing we will add if at all)
 
 ** The Game (Curren's idea) **
--
+- Tutorial explains controls/objective of the game
+- Aquire or "start" company 
+	- Can open menu and check on/manage company at any time
+- 
