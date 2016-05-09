@@ -16,6 +16,7 @@ APES Final Project
 - Economy system
 	- Profits
 	- Fluctuating prices and markets
+	- Maybe manage employees as well?
 - Random events
 	- Low/high fish
 	- Natural Disaster
@@ -24,3 +25,21 @@ APES Final Project
 - We each do in-depth research of mining and fishing
 	- Curren is mining
 	- Chas is fishing
+	
+** The Game (Chas' idea) **
+- Starts off with character in a general space
+	- Tutorial dialogue boxes help you through first part
+- Go into bank(?) and get some money to start the company(ies)
+- Go to company-buying place and buy either/or
+	- While buying, gives real info on what each company will require and how they work
+	  (also maybe statistics on previous years of data for fishing or mining?)
+- After buying, a new icon in corner of screen appears
+	- Helps manage each company while not at the office(?) for each company
+- Can skip various amounts of time
+	- Weeks, months, or years
+	- Check progress along the way
+- Some sort of economy/environment system that randomly fluctuates both prices and natural
+  disasters to keep things fresh (probably the last thing we will add if at all)
+
+** The Game (Curren's idea) **
+-
