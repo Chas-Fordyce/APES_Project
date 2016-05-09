@@ -1,0 +1,18 @@
+APES Final Project
+
+=== Fishing and Mining Game ===
+
+- One character managing one or both companies
+	- Mining
+	- Fishing
+- Goldfish and cookie projects
+	- Choose to buy tools
+	- Have to fish based on how much fish there is per year
+- Pokemon look/style of gameplay
+- Have to regulate/make sustainable resource consumption
+- Economy system
+	- Profits
+	- Fluctuating prices and markets
+- Random events
+	- Low/high fish
+	- Natural Disaster
