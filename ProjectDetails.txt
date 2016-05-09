@@ -25,7 +25,7 @@ APES Final Project
 - We each do in-depth research of mining and fishing
 	- Curren is mining
 	- Chas is fishing
-	
+
 ** The Game (Chas' idea) **
 - Starts off with character in a general space
 	- Tutorial dialogue boxes help you through first part
@@ -43,6 +43,6 @@ APES Final Project
 
 ** The Game (Curren's idea) **
 - Tutorial explains controls/objective of the game
-- Aquire or "start" company 
+- Acquire or "start" company
 	- Can open menu and check on/manage company at any time
-- 
+-
