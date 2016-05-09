@@ -1,6 +1,8 @@
 APES Final Project
 
 === Fishing and Mining Game ===
+*Accurate, real-life info
+	-Educational as well as fun
 
 - One character managing one or both companies
 	- Mining
