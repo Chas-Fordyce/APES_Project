@@ -70,6 +70,8 @@ if (place_meeting(x,y+1,obj_ground))
 
 x += hsp;
 y += vsp;
+
+//Watch video at 17:04
 </string>
           </argument>
         </arguments>
