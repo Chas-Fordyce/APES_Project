@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Variables
-grav = 0.2;
+grav = 0.5;
 hsp = 0;
 vsp = 0;
-jumpSpeed = 7;
-moveSpeed = 4;
+jumpSpeed = 8;
+moveSpeed = 5;
 </string>
           </argument>
         </arguments>
@@ -110,7 +110,6 @@ if (place_meeting(x,y+1,obj_ground))
 {
     vsp = key_jump * -jumpSpeed
 }
-
 </string>
           </argument>
         </arguments>

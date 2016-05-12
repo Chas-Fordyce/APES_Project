@@ -7,14 +7,12 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Player_temp</sprite>
-    <sprite>sprites\spr_rock</sprite>
     <sprite>sprites\spr_ground</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Player</object>
-    <object>objects\obj_rock</object>
     <object>objects\obj_ground</object>
   </objects>
   <rooms name="rooms">
