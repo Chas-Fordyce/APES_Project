@@ -1,0 +1,10 @@
+To Do For All:
+ - Determine size of game, sprites
+ - Create a menu
+ - Go to scrum page
+
+To Do For Chas:
+ - 
+
+To Do For Curren:
+ - Find/make sprites
