@@ -134,17 +134,30 @@ if (place_meeting(x,y+1,obj_ground))
             <kind>1</kind>
             <string>///Animation
 
-if (hsp &gt; 0)
+image_speed = 0.1;
+// Left animation
+if (hsp == 0)
 {
-    image_speed = .5;
+    image_index = 0;
 }
 else if (hsp &lt; 0)
 {
-    image_speed = .5;
+    if (image_index &gt; 4)
+    {
+        image_index = 1;
+    }
 }
-else 
+// Right animation
+else if (hsp &gt; 0)
 {
-    image_index = 7;
+    if (image_index &lt; 5)
+    {
+        image_index = 5;
+    }
+    else if (image_index &gt; 8)
+    {
+        image_index = 5;
+    }
 }
 </string>
           </argument>
