@@ -134,7 +134,7 @@ if (place_meeting(x,y+1,obj_ground))
             <kind>1</kind>
             <string>///Animation
 
-image_speed = 0.1;
+image_speed = 0.125;
 // Left animation
 if (hsp == 0)
 {
@@ -142,7 +142,7 @@ if (hsp == 0)
 }
 else if (hsp &lt; 0)
 {
-    if (image_index &gt; 4)
+    if (image_index &gt; 3)
     {
         image_index = 1;
     }
@@ -150,13 +150,13 @@ else if (hsp &lt; 0)
 // Right animation
 else if (hsp &gt; 0)
 {
-    if (image_index &lt; 5)
+    if (image_index &lt; 4)
     {
-        image_index = 5;
+        image_index = 4;
     }
-    else if (image_index &gt; 8)
+    else if (image_index &gt; 6)
     {
-        image_index = 5;
+        image_index = 4;
     }
 }
 </string>
