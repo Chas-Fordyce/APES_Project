@@ -52,12 +52,15 @@ ystart = 64;
           <argument>
             <kind>1</kind>
             <string>///When clicked
-/*When the mouse button is released, remove the icon and create an instance
-  of the map_full object*/
-if (mouse_check_button_released(mb_left))
+/*When the mouse button is released while on the object, remove the icon and create 
+  an instance of the map_full object*/
+if (mouse_check_button_pressed(mb_left))
 {
-    instance_create(96, 96, obj_map_back);
-    instance_destroy();
+    if (((mouse_x &gt; bbox_left) &amp;&amp; (mouse_x &lt; bbox_right)) &amp;&amp; ((mouse_y &gt; bbox_top) &amp;&amp; (mouse_y&lt;bbox_bottom)))
+    {
+        instance_create(96, 96, obj_map_back);
+        instance_destroy();
+    }
 }
 </string>
           </argument>

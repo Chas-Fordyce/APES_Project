@@ -51,10 +51,13 @@ ystart = 96;
           <argument>
             <kind>1</kind>
             <string>///Sets the creation/destruction of the object
-if (mouse_check_button_released(mb_left))
+if (mouse_check_button_pressed(mb_left))
 {
+    if (((mouse_x &gt; bbox_left) &amp;&amp; (mouse_x &lt; bbox_right)) &amp;&amp; ((mouse_y &gt; bbox_top) &amp;&amp; (mouse_y&lt;bbox_bottom)))
+    {
     instance_create(960, 64, obj_map_icon);
     instance_destroy();
+    }
 }
 </string>
           </argument>
