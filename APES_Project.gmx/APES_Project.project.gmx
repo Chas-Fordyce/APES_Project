@@ -28,8 +28,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_temp</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_temp</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
