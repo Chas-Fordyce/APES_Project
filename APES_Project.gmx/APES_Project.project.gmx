@@ -14,7 +14,9 @@
       <sprite>sprites\spr_map_back</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_menu_temp</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -26,7 +28,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_temp</room>
+    <room>rooms\rm_temp</room>
+    <room>rooms\rm_menu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
