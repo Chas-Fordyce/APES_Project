@@ -105,6 +105,7 @@ key_jump = keyboard_check_pressed(vk_space);
 //React to inputs
 move = key_left + key_right;
 hsp = move * moveSpeed;
+
 if (vsp &lt; 10) vsp += grav;
 
 if (place_meeting(x,y+1,obj_ground))
@@ -133,13 +134,17 @@ if (place_meeting(x,y+1,obj_ground))
             <kind>1</kind>
             <string>///Animation
 
-if (!keyboard_check(ord('D')) &amp;&amp; !keyboard_check(ord('A')))
+if (hsp &gt; 0)
 {
-    image_index = 0;
+    image_speed = .5;
 }
-else
+else if (hsp &lt; 0)
 {
-    image_speed = 1;
+    image_speed = .5;
+}
+else 
+{
+    image_index = 7;
 }
 </string>
           </argument>
