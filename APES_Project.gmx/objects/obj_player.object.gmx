@@ -99,8 +99,9 @@ y += vsp;
             <string>///Player Input
 //Get the player's input
 key_right = keyboard_check(ord('D'));
-key_left = -keyboard_check(ord('A'));
-key_jump = keyboard_check_pressed(vk_space);
+key_left  = -keyboard_check(ord('A'));
+key_jump  = keyboard_check_pressed(vk_space);
+key_up    = keyboard_check(ord('W'));
 
 //React to inputs
 move = key_left + key_right;
@@ -145,9 +146,9 @@ if (hsp &lt; 0)
     sprite_index = spr_playerLeft;
 }
 // Right Animation
-else if (hsp &gt; 0)
+if (hsp &gt; 0)
 {
-    sprite_index = spr_playerRight
+    sprite_index = spr_playerRight;
 }
 </string>
           </argument>
@@ -172,6 +173,37 @@ else if (hsp &gt; 0)
             <string>/// Background Scrolling
 background_x[0] = -x - (background_width[0]);
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Room Switching
+// Door 1
+if (room = rm_temp)
+{
+    if (background_x &gt;= 40 &amp;&amp; background_x &lt;= 100)
+        // Keypressed
+        if (key_up &gt; 0)
+        {
+            room_goto(rm_menu);
+        }   
+}
 </string>
           </argument>
         </arguments>
