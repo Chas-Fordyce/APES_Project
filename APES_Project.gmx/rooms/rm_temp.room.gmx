@@ -11,7 +11,8 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>// Places the objects where they need to be
-instance_create(416, 288, obj_player);
+background_index[0] = bg_main_street;
+instance_create(room_width/2, 690, obj_player);
 instance_create(960, 64, obj_map_icon);
 instance_create(512, 0, obj_ground);</code>
   <enableViews>0</enableViews>
@@ -34,7 +35,7 @@ instance_create(512, 0, obj_ground);</code>
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="bg_main_street" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>

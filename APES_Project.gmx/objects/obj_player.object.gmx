@@ -170,7 +170,7 @@ else if (hsp &gt; 0)
           <argument>
             <kind>1</kind>
             <string>/// Background Scrolling
-background_x[0] = -x - (background_width[0]/2);
+background_x[0] = -x - (background_width[0]);
 
 </string>
           </argument>
