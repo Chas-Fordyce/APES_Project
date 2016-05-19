@@ -25,6 +25,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu_temp</background>
+    <background>background\bg_main_street</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
