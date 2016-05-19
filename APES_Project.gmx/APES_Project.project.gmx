@@ -14,6 +14,7 @@
     </sprites>
     <sprites name="Menu">
       <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_exit</sprite>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_player</sprite>
@@ -36,6 +37,7 @@
     </objects>
     <objects name="Menu">
       <object>objects\obj_start</object>
+      <object>objects\obj_exit</object>
     </objects>
   </objects>
   <rooms name="rooms">
