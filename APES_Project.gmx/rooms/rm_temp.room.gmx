@@ -13,7 +13,7 @@
   <code>// Places the objects where they need to be
 instance_create(416, 288, obj_player);
 instance_create(960, 64, obj_map_icon);
-instance_create(480, 672, obj_ground);</code>
+instance_create(512, 720, obj_ground);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

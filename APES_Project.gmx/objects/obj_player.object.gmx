@@ -133,31 +133,21 @@ if (place_meeting(x,y+1,obj_ground))
           <argument>
             <kind>1</kind>
             <string>///Animation
-
-image_speed = 0.125;
-// Left animation
+image_speed = 0.15;
+// Static
 if (hsp == 0)
 {
-    image_index = 0;
+    sprite_index = spr_player;
 }
-else if (hsp &lt; 0)
+// Left Animation
+if (hsp &lt; 0)
 {
-    if (image_index &gt; 3)
-    {
-        image_index = 1;
-    }
+    sprite_index = spr_playerLeft;
 }
-// Right animation
+// Right Animation
 else if (hsp &gt; 0)
 {
-    if (image_index &lt; 4)
-    {
-        image_index = 4;
-    }
-    else if (image_index &gt; 6)
-    {
-        image_index = 4;
-    }
+    sprite_index = spr_playerRight
 }
 </string>
           </argument>

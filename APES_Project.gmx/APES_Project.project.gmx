@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_ground</sprite>
     <sprites name="Map">
       <sprite>sprites\spr_map_full</sprite>
@@ -15,6 +14,12 @@
     </sprites>
     <sprites name="Menu">
       <sprite>sprites\spr_start</sprite>
+    </sprites>
+    <sprites name="Player">
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_playerLeft</sprite>
+      <sprite>sprites\spr_playerRight</sprite>
+      <sprite>sprites\spr_playerBack</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
