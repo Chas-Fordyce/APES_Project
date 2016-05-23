@@ -26,6 +26,12 @@
   <backgrounds name="background">
     <background>background\bg_menu_temp</background>
     <background>background\bg_main_street</background>
+    <backgrounds name="Shops">
+      <background>background\bg_bank</background>
+      <background>background\bg_company</background>
+      <background>background\bg_mining</background>
+      <background>background\bg_fishing</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -44,6 +50,12 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_temp</room>
+    <rooms name="Shops">
+      <room>rooms\rm_bank</room>
+      <room>rooms\rm_company</room>
+      <room>rooms\rm_mining</room>
+      <room>rooms\rm_fishing</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
