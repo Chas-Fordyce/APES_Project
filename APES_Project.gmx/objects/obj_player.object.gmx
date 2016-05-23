@@ -194,15 +194,45 @@ background_x[0] = -x - (background_width[0]);
           <argument>
             <kind>1</kind>
             <string>/// Room Switching
-// Door 1
+//Main Room
 if (room = rm_temp)
 {
-    if (background_x &gt;= 40 &amp;&amp; background_x &lt;= 100)
-        // Keypressed
+    //Go to Building 1
+    if (x &lt;= 907&amp;&amp; x &gt;= 872)
+    {
+        sprite_index = spr_playerBack;
         if (key_up &gt; 0)
         {
             room_goto(rm_menu);
         }   
+    }
+    //Go to Building 2
+    else if (x &lt;= 672 &amp;&amp; x &gt;= 632)
+    {
+        sprite_index = spr_playerBack;
+        if (key_up &gt; 0)
+        {
+            room_goto(rm_menu);
+        } 
+    }
+    //Go to Building 3
+    else if (x &lt;= 427 &amp;&amp; x &gt;= 397)
+    {
+        sprite_index = spr_playerBack;
+        if (key_up &gt; 0)
+        {
+            room_goto(rm_menu);
+        } 
+    }
+    //Go to Building 4
+    else if (x &lt;= 182 &amp;&amp; x &gt;= 152)
+    {
+        sprite_index = spr_playerBack;
+        if (key_up &gt; 0)
+        {
+            room_goto(rm_menu);
+        } 
+    }
 }
 </string>
           </argument>
