@@ -7,11 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_ground</sprite>
-    <sprites name="Map">
-      <sprite>sprites\spr_map_full</sprite>
-      <sprite>sprites\spr_map_icon</sprite>
-      <sprite>sprites\spr_map_back</sprite>
-    </sprites>
     <sprites name="Menu">
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_exit</sprite>
@@ -38,11 +33,6 @@
     <object>objects\obj_control</object>
     <object>objects\obj_player</object>
     <object>objects\obj_ground</object>
-    <objects name="Map">
-      <object>objects\obj_map_full</object>
-      <object>objects\obj_map_icon</object>
-      <object>objects\obj_map_back</object>
-    </objects>
     <objects name="Menu">
       <object>objects\obj_start</object>
       <object>objects\obj_exit</object>
