@@ -171,8 +171,10 @@ if (hsp &gt; 0)
           <argument>
             <kind>1</kind>
             <string>/// Background Scrolling
-background_x[0] = -x - (background_width[0]);
-
+if (room == rm_temp)
+{
+    background_x[0] = -x - (background_width[0]);
+}
 </string>
           </argument>
         </arguments>
@@ -258,7 +260,7 @@ if (room = rm_temp)
 if (room == rm_bank || room == rm_company || room == rm_mining || room == rm_fishing)
 {
     sprite_index = spr_playerBack;
-    self.x = room_width/2;
+    self.x = 512;
     self.y = 690;
     moveSpeed = 0;
     jumpSpeed = 0;
