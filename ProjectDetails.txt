@@ -2,47 +2,21 @@ APES Final Project
 
 === Fishing and Mining Game ===
 
-** Basics **
-- Accurate, real-life info
-	- Educational as well as fun
-- One character managing one or both companies
-	- Mining
-	- Fishing
-- Goldfish and cookie projects
-	- Choose to buy tools
-	- Have to fish based on how much fish there is per year
-- Pokemon look/style of gameplay
-- Have to regulate/make sustainable resource consumption
-- Economy system
-	- Profits
-	- Fluctuating prices and markets
-	- Maybe manage employees as well?
-- Random events
-	- Low/high fish
-	- Natural Disaster
-
-** Other Details **
-- We each do in-depth research of mining and fishing
-	- Curren is mining
-	- Chas is fishing
-
-** The Game (Chas' idea) **
-- Starts off with character in a general space
-	- Tutorial dialogue boxes help you through first part
-- Go into bank(?) and get some money to start the company(ies)
-- Go to company-buying place and buy either/or
-	- While buying, gives real info on what each company will require and how they work
-	  (also maybe statistics on previous years of data for fishing or mining?)
-- After buying, a new icon in corner of screen appears
-	- Helps manage each company while not at the office(?) for each company
-- Can skip various amounts of time
-	- Weeks, months, or years
-	- Check progress along the way
-- Some sort of economy/environment system that randomly fluctuates both prices and natural
-  disasters to keep things fresh (probably the last thing we will add if at all)
-
-** The Game (Curren's idea) **
-- Tutorial explains controls/objective of the game
-- Acquire or "start" company
-	- Can open menu and check on/manage company at any time
--
+Start with money (only can be seen in bank)
+- You have enough money to start either a mining or fishing company
+Buy companies from Fishing or Mining buildings
+Manage company(ies) from Company building
+ - Can advance by months (up to a year)
+ - Earn money based on how well company(ies) do in that time
+In Fishing or Mining buildings, can upgrade different things from upgrade tree
+ - Can upgrade with money over time
+Fishing
+ - Drift-netting
+ - Trawling
+ - Long-lining
+Mining
+ - Mountaintop removal
+ - Strip
+ - Sub-surface
+ - Open pit
+ - Placer
