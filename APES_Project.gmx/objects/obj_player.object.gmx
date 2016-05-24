@@ -262,13 +262,6 @@ if (room == rm_bank || room == rm_company || room == rm_mining || room == rm_fis
     self.y = 690;
     moveSpeed = 0;
     jumpSpeed = 0;
-    
-    // Leave room
-    if (keyboard_check(ord('S')) &gt; 0)
-    {
-        sprite_index = spr_player;
-        room_goto(rm_temp);
-    }
 }
 else
 {
