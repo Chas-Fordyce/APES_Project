@@ -35,6 +35,7 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_control</object>
     <object>objects\obj_player</object>
     <object>objects\obj_ground</object>
     <objects name="Map">
