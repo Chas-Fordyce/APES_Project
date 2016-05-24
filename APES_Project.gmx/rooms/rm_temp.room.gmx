@@ -7,12 +7,12 @@
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code>// Places the objects where they need to be
 background_index[0] = bg_main_street;
-instance_create(room_width/2, 690, obj_player);
+instance_create(100, 690, obj_player);
 instance_create(960, 64, obj_map_icon);
 instance_create(512, 0, obj_ground);</code>
   <enableViews>0</enableViews>
