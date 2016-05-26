@@ -20,3 +20,6 @@ Mining
  - Sub-surface
  - Open pit
  - Placer
+
+Fonts:
+ - System bold 10pt (for tree)
