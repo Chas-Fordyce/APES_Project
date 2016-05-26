@@ -1,0 +1,14 @@
+Thanks for playing the resource management game! This is the bank. The
+bank is where you can see your monetary balance and see the tutorial.
+
+GOAL OF THE GAME
+----------------
+As a company owner, you are trying to make as many profits as possible.
+To start you have just enough money to purchase either a mining or a
+fishing company. Over the next months and years, you attempt to
+maximize profits by purchasing upgrades and eventually buying the other
+company (depending on whether you bought mining or fishing first.)
+
+HOW TO PLAY
+-----------
+Once you 
