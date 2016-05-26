@@ -17,6 +17,10 @@
       <sprite>sprites\spr_playerRight</sprite>
       <sprite>sprites\spr_playerBack</sprite>
     </sprites>
+    <sprites name="Mining">
+      <sprite>sprites\spr_surfaceStart</sprite>
+      <sprite>sprites\spr_subStart</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu_temp</background>
