@@ -23,3 +23,12 @@ Mining
 
 Fonts:
  - System bold 10pt (for tree)
+Upgrade Paths (trees):
+ - image 0:
+   - Basic color 3x3
+   - Black Text 
+   - Black Outline
+ - image 1:
+   - Basic color 3x3 w/ black 145 opacity fill
+ - image 2:
+   - Basic color 3x3 w/ white 145 opacity fill
