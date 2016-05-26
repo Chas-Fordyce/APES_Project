@@ -12,8 +12,19 @@
   <showcolour>-1</showcolour>
   <code>// Create the player object
 instance_create(room_width/2, 690, obj_player);
-//Create the trees
-instance_create(room_width/4, 100, obj_sub_1);</code>
+// Create the trees
+// Left Tree (Subsurface)
+instance_create(200, 300, obj_sub_1);
+instance_create(150, 400, obj_sub_2a);
+instance_create(250, 400, obj_sub_2b);
+instance_create(150, 500, obj_sub_3a);
+instance_create(250, 500, obj_sub_3b);
+// Right Tree (Surface) 
+instance_create(room_width-200, 300, obj_surface_1);
+instance_create(room_width-150, 400, obj_surface_2a);
+instance_create(room_width-250, 400, obj_surface_2b);
+instance_create(room_width-150, 500, obj_surface_3a);
+instance_create(room_width-250, 500, obj_surface_3b);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

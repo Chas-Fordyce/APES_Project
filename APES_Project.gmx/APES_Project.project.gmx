@@ -20,9 +20,17 @@
     <sprites name="Mining">
       <sprites name="Subsurface">
         <sprite>sprites\spr_sub_1</sprite>
+        <sprite>sprites\spr_sub_2a</sprite>
+        <sprite>sprites\spr_sub_2b</sprite>
+        <sprite>sprites\spr_sub_3a</sprite>
+        <sprite>sprites\spr_sub_3b</sprite>
       </sprites>
       <sprites name="Surface">
         <sprite>sprites\spr_surface_1</sprite>
+        <sprite>sprites\spr_surface_2a</sprite>
+        <sprite>sprites\spr_surface_2b</sprite>
+        <sprite>sprites\spr_surface_3a</sprite>
+        <sprite>sprites\spr_surface_3b</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -37,7 +45,9 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\scr_mouse_hover.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_control</object>
     <object>objects\obj_player</object>
@@ -50,9 +60,17 @@
       <objects name="Mining">
         <objects name="Subsurface">
           <object>objects\obj_sub_1</object>
+          <object>objects\obj_sub_2a</object>
+          <object>objects\obj_sub_2b</object>
+          <object>objects\obj_sub_3a</object>
+          <object>objects\obj_sub_3b</object>
         </objects>
         <objects name="Surface">
           <object>objects\obj_surface_1</object>
+          <object>objects\obj_surface_2a</object>
+          <object>objects\obj_surface_2b</object>
+          <object>objects\obj_surface_3a</object>
+          <object>objects\obj_surface_3b</object>
         </objects>
       </objects>
     </objects>
