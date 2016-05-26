@@ -11,4 +11,22 @@ company (depending on whether you bought mining or fishing first.)
 
 HOW TO PLAY
 -----------
-Once you 
+This is your chance to own the fishing or mining company of that you've
+always dreamed of. To start, you can see your money at the top left of
+your screen. This starting cash is just enough to start a very basic
+corporation. To buy said company, you need to go into the corresponding
+store on the main street.
+
+Once you picked which business to start and entered the correct store,
+you will see a tech-tree. This tech tree will define how you build your
+corporation. After you pick a starting tree, you will be able to branch
+out and pick new upgrades after you start earning money.
+
+Later, you will be able to go to your company building, labeled,
+"Fishing and Mining Inc." where you can manage your company and advance
+forward in time. From the menu, you will be able to manage employees,
+view your annual expenses, and view your company overall. To go forward
+in time, click the button and select which amount of time you would
+like to advance.
+
+Good luck and happy entrepreneuring!
