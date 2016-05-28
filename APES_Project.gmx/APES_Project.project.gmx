@@ -33,6 +33,9 @@
         <sprite>sprites\spr_surface_3b</sprite>
       </sprites>
     </sprites>
+    <sprites name="Fishing">
+      <sprite>sprites\spr_fishing_base</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu_temp</background>
@@ -75,6 +78,9 @@
           <object>objects\obj_surface_3a</object>
           <object>objects\obj_surface_3b</object>
         </objects>
+      </objects>
+      <objects name="Fishing">
+        <object>objects\obj_fishing_base</object>
       </objects>
     </objects>
   </objects>
