@@ -10,9 +10,9 @@
   <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>// Create the player object
+  <code>// Create the player and control objects
 instance_create(0, 0, obj_player);
-instance_create(15, 61, obj_control);</code>
+instance_create(0, 0, obj_control);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

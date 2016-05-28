@@ -53,8 +53,20 @@ font_add('System', 10, true, false, 32, 128);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// If in the bank
+            <string>/// Draw money if in any of the buildings
 if (room == rm_bank)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 85, "Cash: " + string(global.money));
+} 
+else if (room == rm_mining)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 85, "Cash: " + string(global.money));
+}
+else if (room == rm_fishing)
 {
     draw_set_color(c_white);
     draw_set_font(fnt_money);

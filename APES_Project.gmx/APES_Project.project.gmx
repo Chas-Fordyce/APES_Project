@@ -34,7 +34,7 @@
       </sprites>
     </sprites>
     <sprites name="Fishing">
-      <sprite>sprites\spr_fishing_base</sprite>
+      <sprite>sprites\spr_fishing_trawl_1</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -80,7 +80,9 @@
         </objects>
       </objects>
       <objects name="Fishing">
-        <object>objects\obj_fishing_base</object>
+        <objects name="Bottom Trawling">
+          <object>objects\obj_fishing_trawl_1</object>
+        </objects>
       </objects>
     </objects>
   </objects>
