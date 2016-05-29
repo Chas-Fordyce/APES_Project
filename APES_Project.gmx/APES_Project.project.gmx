@@ -33,6 +33,7 @@
         <sprite>sprites\spr_surface_3a</sprite>
         <sprite>sprites\spr_surface_3b</sprite>
       </sprites>
+      <sprite>sprites\spr_temp1</sprite>
     </sprites>
     <sprites name="Fishing">
       <sprite>sprites\spr_fishing_trawl_1</sprite>
