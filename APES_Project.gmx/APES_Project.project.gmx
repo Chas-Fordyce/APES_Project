@@ -53,6 +53,7 @@
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
     <script>scripts\scr_mouse_hover_textbox.gml</script>
+    <script>scripts\scr_upgrade_change.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_money</font>
