@@ -37,6 +37,7 @@
     </sprites>
     <sprites name="Fishing">
       <sprite>sprites\spr_fishing_trawl_1</sprite>
+      <sprite>sprites\spr_fish_test</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
