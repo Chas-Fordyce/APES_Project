@@ -50,6 +50,7 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_mouse_hover.gml</script>
+    <script>scripts\scr_mouse_hover_textbox.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_money</font>
