@@ -36,7 +36,20 @@
       </sprites>
     </sprites>
     <sprites name="Fishing">
-      <sprite>sprites\spr_fishing_trawl_1</sprite>
+      <sprites name="Bottom Trawling">
+        <sprite>sprites\spr_fishing_trawl_1</sprite>
+        <sprite>sprites\spr_fishing_trawl_2a</sprite>
+        <sprite>sprites\spr_fishing_trawl_2b</sprite>
+        <sprite>sprites\spr_fishing_trawl_3a</sprite>
+        <sprite>sprites\spr_fishing_trawl_3b</sprite>
+      </sprites>
+      <sprites name="Drift-Netting">
+        <sprite>sprites\spr_fishing_drift_1</sprite>
+        <sprite>sprites\spr_fishing_drift_2a</sprite>
+        <sprite>sprites\spr_fishing_drift_2b</sprite>
+        <sprite>sprites\spr_fishing_drift_3a</sprite>
+        <sprite>sprites\spr_fishing_drift_3b</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -86,6 +99,17 @@
       <objects name="Fishing">
         <objects name="Bottom Trawling">
           <object>objects\obj_fishing_trawl_1</object>
+          <object>objects\obj_fishing_trawl_2a</object>
+          <object>objects\obj_fishing_trawl_2b</object>
+          <object>objects\obj_fishing_trawl_3a</object>
+          <object>objects\obj_fishing_trawl_3b</object>
+        </objects>
+        <objects name="Drift-Netting">
+          <object>objects\obj_fishing_drift_1</object>
+          <object>objects\obj_fishing_drift_2a</object>
+          <object>objects\obj_fishing_drift_2b</object>
+          <object>objects\obj_fishing_drift_3a</object>
+          <object>objects\obj_fishing_drift_3b</object>
         </objects>
       </objects>
     </objects>
