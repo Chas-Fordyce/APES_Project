@@ -23,7 +23,5 @@
     <frame index="0">images\spr_sub_2b_0.png</frame>
     <frame index="1">images\spr_sub_2b_1.png</frame>
     <frame index="2">images\spr_sub_2b_2.png</frame>
-    <frame index="3">images\spr_sub_2b_3.png</frame>
-    <frame index="4">images\spr_sub_2b_4.png</frame>
   </frames>
 </sprite>
