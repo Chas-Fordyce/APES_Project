@@ -37,6 +37,7 @@
     <sprites name="Fishing">
       <sprite>sprites\spr_fishing_trawl_1</sprite>
     </sprites>
+    <sprite>sprites\spr_temp2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu_temp</background>
