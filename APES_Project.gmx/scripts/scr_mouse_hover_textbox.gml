@@ -1,6 +1,6 @@
 if (position_meeting(mouse_x,mouse_y, self))
 {
-    if (self.x < 512)
+    if (self.x < ((room_width/2) + 125))
     {
         draw_sprite(spr_textbox, 0, self.x+214, self.y);
         draw_set_color(c_black);

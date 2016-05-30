@@ -13,19 +13,22 @@
   <code>// Create the player and control objects
 instance_create(room_width/2, 690, obj_player);
 instance_create(0, 0, obj_control);
+
 // Create the trees
 // Left Tree (Subsurface)
-instance_create(200, 300, obj_sub_1);
-instance_create(150, 400, obj_sub_2a);
-instance_create(250, 400, obj_sub_2b);
-instance_create(150, 500, obj_sub_3a);
-instance_create(250, 500, obj_sub_3b);
+instance_create(125, 450, obj_sub_1);
+instance_create(325, 302, obj_sub_2a);
+instance_create(325, 402, obj_sub_2b);
+instance_create(325, 502, obj_sub_3a);
+instance_create(325, 602, obj_sub_3b);
+
+var distance = room_width/2;
 // Right Tree (Surface) 
-instance_create(room_width-200, 300, obj_surface_1);
-instance_create(room_width-150, 400, obj_surface_2a);
-instance_create(room_width-250, 400, obj_surface_2b);
-instance_create(room_width-150, 500, obj_surface_3a);
-instance_create(room_width-250, 500, obj_surface_3b);</code>
+instance_create(distance+100, 450, obj_surface_1);
+instance_create(distance+300, 302, obj_surface_2a);
+instance_create(distance+300, 402, obj_surface_2b);
+instance_create(distance+300, 502, obj_surface_3a);
+instance_create(distance+300, 602, obj_surface_3b);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
