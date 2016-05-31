@@ -52,8 +52,7 @@ level = 0;
             <kind>1</kind>
             <string>///Description
 description = 
-"Subsurface Mining is mining done bellow the surface in mineshafts.
-#More dangerous than surface mining.";
+"Dig mines deeper to access more resources.####Each upgrade increases profits by 3%";
 </string>
           </argument>
         </arguments>

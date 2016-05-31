@@ -52,8 +52,7 @@ level = 0;
             <kind>1</kind>
             <string>///Description
 description = 
-"Subsurface Mining is mining done bellow the surface in mineshafts.
-#More dangerous than surface mining.";
+"Subsurface mining is used when the resource is found in pockets deep underground and/or in vertical deposits.#Far more dangerous than strip mining.";
 </string>
           </argument>
         </arguments>

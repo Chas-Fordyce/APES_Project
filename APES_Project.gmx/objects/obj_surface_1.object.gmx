@@ -52,8 +52,7 @@ level = 0;
             <kind>1</kind>
             <string>///Description
 description = 
-"Strip mining is used when the resource is concentrated in horizontal deposits near the surface.
-Used mainly for coal, oil sands, and sometimes sand or gravel.";
+"Strip mining is used when the resource is concentrated in horizontal deposits near the surface.#One of both the most common and destructive mining methods.";
 </string>
           </argument>
         </arguments>
