@@ -20,6 +20,8 @@ instance_create(325, 302, obj_sub_2a);
 instance_create(325, 402, obj_sub_2b);
 instance_create(325, 502, obj_sub_3a);
 instance_create(325, 602, obj_sub_3b);
+// Draw Arrows
+draw_arrow(125, 450, 325, 302, 100);
 
 var distance = room_width/2;
 // Right Tree (Surface) 

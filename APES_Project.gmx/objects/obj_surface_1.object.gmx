@@ -52,8 +52,8 @@ level = 0;
             <kind>1</kind>
             <string>///Description
 description = 
-"Subsurface Mining is mining done bellow the surface in mineshafts.
-#More dangerous than surface mining.";
+"Strip mining is used when the resource is concentrated in horizontal deposits near the surface.
+Used mainly for coal, oil sands, and sometimes sand or gravel.";
 </string>
           </argument>
         </arguments>
