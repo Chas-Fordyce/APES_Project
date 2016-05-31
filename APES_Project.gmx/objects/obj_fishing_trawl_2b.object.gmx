@@ -53,9 +53,7 @@ img_id = id;
           <argument>
             <kind>1</kind>
             <string>///Description
-description = 
-"Subsurface Mining is mining done bellow the surface in mineshafts.
-#More dangerous than surface mining.";
+description = "Add more boats to your fleet.####Each upgrade increases profits by 7%";
 </string>
           </argument>
         </arguments>

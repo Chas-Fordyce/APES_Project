@@ -53,9 +53,7 @@ img_id = id;
           <argument>
             <kind>1</kind>
             <string>///Description
-description = 
-"Subsurface Mining is mining done bellow the surface in mineshafts.
-#More dangerous than surface mining.";
+description = "Bottom trawling is a method of fishing where large nets with weights are dragged#along the bottom of the ocean by boats.";
 </string>
           </argument>
         </arguments>

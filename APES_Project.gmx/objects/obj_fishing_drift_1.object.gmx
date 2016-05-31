@@ -53,9 +53,7 @@ img_id = id;
           <argument>
             <kind>1</kind>
             <string>///Description
-description = 
-"Subsurface Mining is mining done bellow the surface in mineshafts.
-#More dangerous than surface mining.";
+description = "Drift netting is a fishing method in which large mesh nets with weights at the#bottom and floats at the top are left in currents where fish become trapped in them.";
 </string>
           </argument>
         </arguments>
