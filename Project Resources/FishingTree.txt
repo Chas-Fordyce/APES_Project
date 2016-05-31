@@ -1,0 +1,13 @@
+Fishing Tree:
+
+Bottom Trawling:
+2a: Bigger nets
+2b: More boats
+3a: Longer fishing time
+3b: Bigger fish holds
+
+Drift-Netting:
+2a: Bigger nets
+2b: More nets
+3a: Longer fishing time
+3b: Less bycatch (in other words more of just the fish)
