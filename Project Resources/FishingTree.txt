@@ -1,13 +1,13 @@
 Fishing Tree:
 
 Bottom Trawling:
-2a: Bigger nets
-2b: More boats
-3a: Longer fishing time
-3b: Bigger fish holds
+2a: Bigger nets : Increase the size of nets used. Each upgrade increases profits by 5%
+2b: More boats : Add more boats to your fleet. Each upgrade increases profits by 7%
+3a: Longer fishing time : Trawl for longer periods of time. Each upgrade increases profits by 3%
+3b: Bigger fish holds : Increase the holding capacity for fish in each boat. Each upgrade increases profits by 8%
 
 Drift-Netting:
-2a: Bigger nets
-2b: More nets
-3a: Longer fishing time
-3b: Less bycatch (in other words more of just the fish)
+2a: Bigger nets : Increase the size of nets used. Each upgrade increases profits by 5%
+2b: More nets : Put more nets in the water. Each upgrade increases profits by 6%
+3a: Longer fishing time : Leave nets in the water for an increased period of time. Each upgrade increases profits by 4%
+3b: Decrease bycatch (in other words more of just the fish) : Improve techniques to reduce unwanted fish caught. Each upgrade increases profits by 7%
