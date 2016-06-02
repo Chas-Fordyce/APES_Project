@@ -36,6 +36,10 @@ global.mining_profit = 0;
 
 globalvar fishing_profit;
 global.fishing_profit = 0;
+
+// Main Profit Multiplier
+globalvar profit;
+global.profit = 10;
 </string>
           </argument>
         </arguments>
