@@ -117,6 +117,12 @@ else if (room == rm_fishing)
     draw_set_font(fnt_money);
     draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
 }
+else if (room == rm_mining)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 105, "Mining profit: " + string(global.mining_profit));
+}
 </string>
           </argument>
         </arguments>
