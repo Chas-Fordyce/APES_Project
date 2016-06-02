@@ -57,6 +57,7 @@
     </sprites>
     <sprites name="Company">
       <sprite>sprites\spr_time_advance</sprite>
+      <sprite>sprites\spr_donate</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -126,6 +127,7 @@
     </objects>
     <objects name="Company">
       <object>objects\obj_time_advance</object>
+      <object>objects\obj_donate</object>
     </objects>
   </objects>
   <rooms name="rooms">
