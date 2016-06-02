@@ -4,14 +4,18 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_background_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_whitebox</sprite>
     <sprite>sprites\spr_textbox</sprite>
     <sprite>sprites\spr_ground</sprite>
     <sprites name="Menu">
       <sprite>sprites\spr_start</sprite>
+      <sprite>sprites\spr_music_setting</sprite>
       <sprite>sprites\spr_exit</sprite>
+      <sprite>sprites\spr_volume</sprite>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_player</sprite>
@@ -82,7 +86,9 @@
     <object>objects\obj_ground</object>
     <objects name="Menu">
       <object>objects\obj_start</object>
+      <object>objects\obj_music_setting</object>
       <object>objects\obj_exit</object>
+      <object>objects\obj_volume</object>
     </objects>
     <objects name="Trees">
       <objects name="Mining">
