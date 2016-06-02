@@ -30,11 +30,12 @@ globalvar money;
 global.money = 10000;
 
 // Percent of how much is made vs. how much is spent
+// Starts at 0 until you buy the first upgrade
 globalvar mining_profit;
-global.mining_profit = 100;
+global.mining_profit = 0;
 
 globalvar fishing_profit;
-global.fishing_profit = 100;
+global.fishing_profit = 0;
 </string>
           </argument>
         </arguments>
@@ -109,6 +110,12 @@ if (room == rm_company)
     draw_set_font(fnt_money);
     draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
     draw_text(45, 125, "Mining profit:  " + string(global.mining_profit));
+}
+else if (room == rm_fishing)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
 }
 </string>
           </argument>
