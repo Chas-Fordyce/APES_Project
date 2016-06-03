@@ -47,9 +47,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.money &gt; 1000)
+            <string>if (global.money &gt; 500)
 {
     global.profit += 1;
+    global.money -= 500
 }
 </string>
           </argument>
