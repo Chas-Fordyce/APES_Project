@@ -5,5 +5,7 @@ if (mouse_check_button_released(mb_left) && position_meeting(mouse_x,mouse_y, se
     {
         image_index++;
         self.level = self.image_index;
+        global.money -= self.cost;
+        self.cost *= self.level+1;
     }
 }

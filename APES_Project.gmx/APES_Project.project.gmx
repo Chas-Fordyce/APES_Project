@@ -77,6 +77,8 @@
     <script>scripts\scr_upgrade_change.gml</script>
     <script>scripts\scr_fishing_upgrades.gml</script>
     <script>scripts\scr_mining_upgrades.gml</script>
+    <script>scripts\scr_upgrade_cost_fishing.gml</script>
+    <script>scripts\scr_upgrade_cost_mining.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_money</font>
