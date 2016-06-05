@@ -1,5 +1,5 @@
 /// Draw Cost
-if (obj_control.info_fishing_trawl == false && obj_control.info_fishing_drift == false && obj_control.info_mining_surface == false && obj_control.info_mining_subsurface == false)
+if (instance_exists(obj_info_box) == false)
 {
     if (self.level != 4)
     {
@@ -26,7 +26,7 @@ if (position_meeting(mouse_x,mouse_y, self))
             draw_set_color(c_black);
             draw_text_ext(self.x+70, self.y-95, self.description, 25, 300);
         }
-        else
+        else 
         {
             draw_sprite(spr_textbox, 1, self.x-214, self.y);
             draw_set_color(c_black);
