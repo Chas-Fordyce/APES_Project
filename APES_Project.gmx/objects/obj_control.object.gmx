@@ -253,6 +253,8 @@ else if (info_mining_surface == true)
     draw_text_ext(30, 76, obj_info_surface.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
+    // draw image
+    instance_create(room_width/2, 600, obj_info_img_surface);
 }
 else if (info_mining_subsurface == true)
 {
@@ -263,6 +265,7 @@ else if (info_mining_subsurface == true)
     draw_text_ext(30, 76, obj_info_subsurface.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
+    instance_create(room_width/2+250, 630, obj_info_img_subsurface);
 }
 </string>
           </argument>

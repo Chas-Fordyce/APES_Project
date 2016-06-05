@@ -66,6 +66,8 @@
       <sprites name="Images">
         <sprite>sprites\spr_info_img_trawl</sprite>
         <sprite>sprites\spr_info_img_drift</sprite>
+        <sprite>sprites\spr_info_img_surface</sprite>
+        <sprite>sprites\spr_info_img_subsurface</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -169,6 +171,8 @@
       <objects name="Images">
         <object>objects\obj_info_img_trawl</object>
         <object>objects\obj_info_img_drift</object>
+        <object>objects\obj_info_img_surface</object>
+        <object>objects\obj_info_img_subsurface</object>
       </objects>
     </objects>
   </objects>
