@@ -1,9 +1,19 @@
 /// Draw Cost
-depth = 1;
-draw_set_color(c_red);
-draw_set_font(fnt_money);
-draw_text(x+34, y-25, "$" + string(cost));
-
+if (obj_control.info_fishing_trawl == false && obj_control.info_fishing_drift == false && obj_control.info_mining_surface == false && obj_control.info_mining_subsurface == false)
+{
+    if (self.level != 4)
+    {
+        draw_set_color(c_red);
+        draw_set_font(fnt_money);
+        draw_text(x+34, y-25, "$" + string(cost));
+    }
+    else
+    {
+        draw_set_color(c_red);
+        draw_set_font(fnt_money);
+        draw_text(x+34, y-25, "Fully upgraded!");
+    }
+}
 // Draw Description Textbox
 if (position_meeting(mouse_x,mouse_y, self))
 {
