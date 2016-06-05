@@ -49,7 +49,7 @@ cost = 1000;
             <kind>1</kind>
             <string>/// Description
 description = 
-"Every year the profit multiplier decreases by .1#To reset multiplier to 1 donate money.#Every time you donate the amount required to donate increases by $100.";
+"Every Month the profit multiplier decreases by .05#To reset multiplier to 1 donate money.#Every time you donate the amount required to donate increases by $100.";
 </string>
           </argument>
         </arguments>

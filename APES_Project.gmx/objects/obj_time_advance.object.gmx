@@ -81,7 +81,7 @@ if (month == 12)
             <string>global.money += (global.profit*global.fishing_profit) + 
                 (global.profit*global.mining_profit);
 
-if (global.profit &gt; .05)
+if (global.profit &gt; .05
 {
     global.profit -= .05;
 }
