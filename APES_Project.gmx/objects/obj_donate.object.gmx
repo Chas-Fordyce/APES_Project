@@ -26,7 +26,30 @@
           <argument>
             <kind>1</kind>
             <string>/// Sets Base Cost
-cost = 10000;
+cost = 1000;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Description
+description = 
+"Every year the profit multiplier decreases by .1#To reset multiplier to 1 donate money.#Every time you donate the amount required to donate increases by $100.";
 </string>
           </argument>
         </arguments>
@@ -49,11 +72,11 @@ cost = 10000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.money &gt;= 10000 &amp;&amp; global.profit &lt; 1)
+            <string>if (global.money &gt;= cost &amp;&amp; global.profit &lt; 1)
 {
     global.profit = 1;
     global.money -= cost;
-    cost += 1000;
+    cost += 100;
 }
 </string>
           </argument>
@@ -122,6 +145,70 @@ draw_set_color(c_white);
 draw_set_font(fnt_money);
 draw_text(x+34, y, "Profit Multiplier: " +string(global.profit));
 </string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Draw Cost
+draw_set_color(c_red);
+draw_set_font(fnt_money);
+draw_text(x+34, y-25, "$" + string(cost));
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scr_mouse_hover_textbox</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
