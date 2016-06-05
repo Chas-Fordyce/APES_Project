@@ -59,6 +59,11 @@
       <sprite>sprites\spr_time_advance</sprite>
       <sprite>sprites\spr_donate</sprite>
     </sprites>
+    <sprites name="Info">
+      <sprite>sprites\spr_info_close</sprite>
+      <sprite>sprites\spr_info_box</sprite>
+      <sprite>sprites\spr_info_button</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu_temp</background>
@@ -130,6 +135,14 @@
     <objects name="Company">
       <object>objects\obj_time_advance</object>
       <object>objects\obj_donate</object>
+    </objects>
+    <objects name="Info">
+      <object>objects\obj_info_trawl</object>
+      <object>objects\obj_info_drift</object>
+      <object>objects\obj_info_surface</object>
+      <object>objects\obj_info_subsurface</object>
+      <object>objects\obj_info_box</object>
+      <object>objects\obj_info_close</object>
     </objects>
   </objects>
   <rooms name="rooms">

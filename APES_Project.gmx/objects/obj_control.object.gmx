@@ -25,7 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Variables
+            <string>/// Variables
+info_fishing_trawl = false;
+info_fishing_drift = false
+info_mining_surface = false;
+info_mining_subsurface = false;
+
+//Global Variables
 globalvar money;
 global.money = 10000;
 
@@ -40,6 +46,31 @@ global.fishing_profit = 0;
 // Main Profit Multiplier
 globalvar profit;
 global.profit = 10;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Info descriptions
+bottom_trawling_description = "";
+drift_netting_description = "";
+subsurface_mining_description = "";
+surface_mining_description = "";
 </string>
           </argument>
         </arguments>
@@ -126,6 +157,57 @@ else if (room == rm_mining)
     draw_set_color(c_white);
     draw_set_font(fnt_money);
     draw_text(45, 105, "Mining profit: " + string(global.mining_profit));
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Info button
+if (info_fishing_trawl == true)
+{
+    // draw box
+    instance_create(room_width/2, room_height/2, obj_info_box);
+    // write text
+    draw_set_color(c_white);
+    // show x button
+    instance_create(46, 46, obj_info_close);
+}
+else if (info_fishing_drift == true)
+{
+    // draw box
+    // write text
+    // show x button
+    instance_create(30, 30, obj_info_close);
+}
+else if (info_mining_surface == true)
+{
+    // draw box
+    // write text
+    // show x button
+    instance_create(30, 30, obj_info_close);
+}
+else if (info_mining_subsurface == true)
+{
+    // draw box
+    // write text
+    // show x button
+    instance_create(30, 30, obj_info_close);
 }
 </string>
           </argument>

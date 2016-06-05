@@ -29,7 +29,11 @@ instance_create(distance+100, 450, obj_surface_1);
 instance_create(distance+300, 302, obj_surface_2a);
 instance_create(distance+300, 402, obj_surface_2b);
 instance_create(distance+300, 502, obj_surface_3a);
-instance_create(distance+300, 602, obj_surface_3b);</code>
+instance_create(distance+300, 602, obj_surface_3b);
+
+// Create info buttons
+instance_create(50, 450, obj_info_surface);
+instance_create(distance+25, 450, obj_info_subsurface);</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
