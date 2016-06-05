@@ -63,6 +63,10 @@
       <sprite>sprites\spr_info_close</sprite>
       <sprite>sprites\spr_info_box</sprite>
       <sprite>sprites\spr_info_button</sprite>
+      <sprites name="Images">
+        <sprite>sprites\spr_info_img_trawl</sprite>
+        <sprite>sprites\spr_info_img_drift</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -162,6 +166,10 @@
       <object>objects\obj_info_subsurface</object>
       <object>objects\obj_info_box</object>
       <object>objects\obj_info_close</object>
+      <objects name="Images">
+        <object>objects\obj_info_img_trawl</object>
+        <object>objects\obj_info_img_drift</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">

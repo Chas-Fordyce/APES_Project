@@ -229,6 +229,8 @@ if (info_fishing_trawl == true)
     draw_text_ext(30, 76, obj_info_trawl.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
+    // draw image
+    instance_create(room_width/2+285, 615, obj_info_img_trawl);
 }
 else if (info_fishing_drift == true)
 {
@@ -239,6 +241,8 @@ else if (info_fishing_drift == true)
     draw_text_ext(30, 76, obj_info_drift.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
+    // draw image
+    instance_create(room_width/2, 615, obj_info_img_drift);
 }
 else if (info_mining_surface == true)
 {

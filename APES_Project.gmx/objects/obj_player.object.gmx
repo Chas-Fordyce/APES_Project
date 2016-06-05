@@ -268,8 +268,11 @@ if (room == rm_bank || room == rm_company || room == rm_mining || room == rm_fis
     // Leave room
     if (keyboard_check(ord('S')) &gt; 0)
     {
-        sprite_index = spr_player;
-        room_goto(rm_temp);
+        if (obj_control.info_fishing_trawl == false &amp;&amp; obj_control.info_fishing_drift == false &amp;&amp; obj_control.info_mining_surface == false &amp;&amp; obj_control.info_mining_subsurface == false)
+        {
+            sprite_index = spr_player;
+            room_goto(rm_temp);
+        }
     }
 }
 else
