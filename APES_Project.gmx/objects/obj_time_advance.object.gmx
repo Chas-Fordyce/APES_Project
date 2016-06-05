@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>/// Counts number of years advanced
+years = 0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -54,6 +56,8 @@ if (global.profit &gt; 0)
 {
     global.profit -= .05;
 }
+
+years++;
 </string>
           </argument>
         </arguments>
