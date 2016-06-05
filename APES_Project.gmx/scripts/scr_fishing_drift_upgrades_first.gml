@@ -4,7 +4,7 @@ if (global.money >= self.cost)
     {
         if (global.fishingDriftFirst == 0)
         {
-            global.fishing_profit += 100;
+            global.fishing_profit += 500;
             global.fishingDriftFirst++;
         }
         scr_upgrade_change();

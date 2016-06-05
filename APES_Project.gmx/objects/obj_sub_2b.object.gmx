@@ -32,7 +32,7 @@ image_speed = 0;
 level = 0;
 upgrade = .05;
 upgradeable = true;
-cost = 1000;
+cost = 5000;
 </string>
           </argument>
         </arguments>

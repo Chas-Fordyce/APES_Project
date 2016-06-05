@@ -4,7 +4,7 @@ if (global.money >= self.cost)
     {
         if (global.miningSubFirst == 0)
         {
-            global.mining_profit += 100;
+            global.mining_profit += 500;
             global.miningSubFirst++;
         }
         scr_upgrade_change();

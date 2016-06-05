@@ -54,6 +54,10 @@ year = 0;
 if (month == 12)
 {
     year++;
+    if (global.profit &gt; .1)
+    {
+        global.profit -= .1;
+    }
     month = 0;
 }
 </string>
@@ -80,11 +84,6 @@ if (month == 12)
             <kind>1</kind>
             <string>global.money += (global.profit*global.fishing_profit) + 
                 (global.profit*global.mining_profit);
-
-if (global.profit &gt; .05)
-{
-    global.profit -= .05;
-}
 
 month++;
 </string>

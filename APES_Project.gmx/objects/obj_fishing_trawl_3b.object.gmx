@@ -33,7 +33,7 @@ level = 0;
 // Set upgrade percentage
 upgrade = .08;
 upgradeable = true;
-cost = 1000;
+cost = 8000;
 </string>
           </argument>
         </arguments>
