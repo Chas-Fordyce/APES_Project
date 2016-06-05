@@ -87,7 +87,6 @@
     <script>scripts\scr_mouse_hover_textbox.gml</script>
     <script>scripts\scr_upgrade_change.gml</script>
     <scripts name="Mining">
-      <script>scripts\scr_upgrade_cost_mining.gml</script>
       <scripts name="Subsurface">
         <script>scripts\scr_mining_sub_upgrades_first.gml</script>
         <script>scripts\scr_mining_sub_upgrades.gml</script>
@@ -98,8 +97,6 @@
       </scripts>
     </scripts>
     <scripts name="Fishing">
-      <script>scripts\scr_fishing_upgrades.gml</script>
-      <script>scripts\scr_upgrade_cost_fishing.gml</script>
       <scripts name="Bottom Trawling">
         <script>scripts\scr_fishing_trawl_upgrades_first.gml</script>
         <script>scripts\scr_fishing_trawl_upgrades.gml</script>
