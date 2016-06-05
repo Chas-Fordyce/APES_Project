@@ -46,6 +46,10 @@ global.fishing_profit = 0;
 // Main Profit Multiplier
 globalvar profit;
 global.profit = 1;
+
+// Month / Year Counter
+globalvar month;
+
 </string>
           </argument>
         </arguments>

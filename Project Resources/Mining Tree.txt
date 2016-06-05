@@ -11,3 +11,9 @@ Mining Tree:
 - 2b - Better Research
 - 3a - More Land 
 - 3b - Better Roads
+
+Subsurface more info:
+The location of the mine is decided based on the ground above the resource and the type of vein the resource occurs in. Subsurface mining is used when the resource is found in concentrated areas or seams deep underground. Mainly used for Zinc, lead, nickel, tin, gold, copper, uranium, diamonds, phosphate, salt, potash, and coal. The process of subsurface mining starts with digging holes deep into the ground until the level at which the resource occurs is reached. Next tunnel networks are created to follow resource deposits. Then the resources are extracted and sent to the surface. This mining practice, because of the nature of digging large holes underground is one of the most dangerous. Mining in subsurface mines is one of the most dangerous occupations as tunnels can collapse and some mines (in South Africa) extend as deep as 2.5 miles below the surface.
+
+Strip Mining more info:
+Strip mining is one of the most economically efficient forms of mining however it comes with some large environmental effects. Strip mining is used mainly for coal, oil sands, and sometimes sand and/or gravel. The process begins with removing the soil and rock above the desired resource with heavy machinery. The resource, once uncovered is then extracted before being hauled away. Finally the hole made in the process if filled with the excess soil and rock. Because of the huge expanse of topsoil and vegetation that is removed in the process of strip mining, as well as the acid drainage caused, makes strip mining one of the most environmentally harmful mining methods. 
