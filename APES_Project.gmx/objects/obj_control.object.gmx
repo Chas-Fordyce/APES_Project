@@ -191,23 +191,29 @@ if (info_fishing_trawl == true)
 else if (info_fishing_drift == true)
 {
     // draw box
+    instance_create(room_width/2, room_height/2, obj_info_box);
     // write text
+    draw_set_color(c_white);
     // show x button
-    instance_create(30, 30, obj_info_close);
+    instance_create(46, 46, obj_info_close);
 }
 else if (info_mining_surface == true)
 {
     // draw box
+    instance_create(room_width/2, room_height/2, obj_info_box);
     // write text
+    draw_set_color(c_white);
     // show x button
-    instance_create(30, 30, obj_info_close);
+    instance_create(46, 46, obj_info_close);
 }
 else if (info_mining_subsurface == true)
 {
     // draw box
+    instance_create(room_width/2, room_height/2, obj_info_box);
     // write text
+    draw_set_color(c_white);
     // show x button
-    instance_create(30, 30, obj_info_close);
+    instance_create(46, 46, obj_info_close);
 }
 </string>
           </argument>
