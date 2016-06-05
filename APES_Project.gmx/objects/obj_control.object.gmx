@@ -45,7 +45,7 @@ global.fishing_profit = 0;
 
 // Main Profit Multiplier
 globalvar profit;
-global.profit = 10;
+global.profit = 1;
 </string>
           </argument>
         </arguments>

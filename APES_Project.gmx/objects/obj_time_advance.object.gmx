@@ -52,7 +52,7 @@
 
 if (global.profit &gt; 0)
 {
-    global.profit -= 1;
+    global.profit -= .05;
 }
 </string>
           </argument>
