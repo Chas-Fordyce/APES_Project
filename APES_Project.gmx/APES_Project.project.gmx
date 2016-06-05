@@ -80,10 +80,21 @@
     <script>scripts\scr_mouse_hover.gml</script>
     <script>scripts\scr_mouse_hover_textbox.gml</script>
     <script>scripts\scr_upgrade_change.gml</script>
-    <script>scripts\scr_fishing_upgrades.gml</script>
-    <script>scripts\scr_mining_upgrades.gml</script>
-    <script>scripts\scr_upgrade_cost_fishing.gml</script>
-    <script>scripts\scr_upgrade_cost_mining.gml</script>
+    <scripts name="Mining">
+      <script>scripts\scr_upgrade_cost_mining.gml</script>
+      <scripts name="Subsurface">
+        <script>scripts\scr_mining_sub_upgrades_first.gml</script>
+        <script>scripts\scr_mining_sub_upgrades.gml</script>
+      </scripts>
+      <scripts name="Surface">
+        <script>scripts\scr_mining_surface_upgrades_first.gml</script>
+        <script>scripts\scr_mining_surface_upgrades.gml</script>
+      </scripts>
+    </scripts>
+    <scripts name="Fishing">
+      <script>scripts\scr_fishing_upgrades.gml</script>
+      <script>scripts\scr_upgrade_cost_fishing.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_money</font>

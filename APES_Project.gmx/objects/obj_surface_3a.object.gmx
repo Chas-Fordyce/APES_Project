@@ -78,7 +78,7 @@ description =
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_upgrade_cost_mining</script>
+            <script>scr_mining_surface_upgrades</script>
           </argument>
           <argument>
             <kind>0</kind>

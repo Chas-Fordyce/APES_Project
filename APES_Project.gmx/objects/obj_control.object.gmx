@@ -47,6 +47,18 @@ global.fishing_profit = 0;
 globalvar profit;
 global.profit = 1;
 
+// Upgrade Tree checks
+globalvar miningSubFirst;
+global.miningSubFirst = 0;
+
+globalvar miningSurfaceFirst;
+global.miningSurfaceFirst = 0;
+
+globalvar fishingTrawlFirst;
+global.fishingTrawlFirst = 0;
+
+globalvar fishingDriftFirst;
+global.fishingDriftFirst = 0;
 </string>
           </argument>
         </arguments>
