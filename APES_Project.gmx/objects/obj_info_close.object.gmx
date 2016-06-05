@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -33,6 +33,10 @@ if (mouse_check_button_released(mb_left) &amp;&amp; position_meeting(mouse_x,mou
     obj_control.info_mining_surface = false;
     obj_control.info_mining_subsurface = false;
     with(obj_info_box) { instance_destroy(); }
+    instance_destroy();
+}
+if (room == rm_temp)
+{
     instance_destroy();
 }
 </string>
