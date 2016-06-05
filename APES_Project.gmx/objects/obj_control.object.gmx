@@ -47,9 +47,6 @@ global.fishing_profit = 0;
 globalvar profit;
 global.profit = 1;
 
-// Month / Year Counter
-globalvar month;
-
 </string>
           </argument>
         </arguments>

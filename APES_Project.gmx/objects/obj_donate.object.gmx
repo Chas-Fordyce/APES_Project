@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>/// Sets Base Cost
+cost = 10000;
+</string>
           </argument>
         </arguments>
       </action>
@@ -50,7 +52,8 @@
             <string>if (global.money &gt;= 10000 &amp;&amp; global.profit &lt; 1)
 {
     global.profit = 1;
-    global.money -= 10000
+    global.money -= cost;
+    cost += 1000;
 }
 </string>
           </argument>
@@ -114,7 +117,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white);
+            <string>/// Draw Profit Multiplier
+draw_set_color(c_white);
 draw_set_font(fnt_money);
 draw_text(x+34, y, "Profit Multiplier: " +string(global.profit));
 </string>
