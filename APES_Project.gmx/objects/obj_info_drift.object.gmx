@@ -8,6 +8,29 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>description = "Drift nets are among the most simple and ancient methods of fishing. Drift nets are meshes of sheet nets that are held somewhat vertically in the water by weights at the bottom and buoys at the top. The net is left for a short amount of time before being picked up by a fishing boat. The nets are allowed to float with water currents or winds. The main focus of drift nets are to capture tuna, swordfish, and salmon. Drift netting is among the most efficient fishing techniques and some argue that drift nets beat all other competition. Drift nets produce a large amount of bycatch, especially from bigger marine wildlife like sharks and dolphins. Because these animals are large, somewhat slow-moving, and take a long time to grow and reproduce, it is a large issue that so many are caught and killed by accident by the drift nets.";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>

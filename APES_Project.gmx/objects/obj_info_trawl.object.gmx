@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = 100;
+            <string>description = "Trawling is one of the most popular fishing methods. Trawling is when boats drag large, cone-shaped nets behind them. Bottom trawling specifically is a similar method, except with added weighs to keep the net gliding along the bottom. The main fish that are caught using this method are shrimp, code, sole, and flounder. However, many other types of fish/marine wildlife are caught such as hundred-year-old coral and other unwanted animals. Bottom trawling is so popular and efficient that in 2007 alone, over 800,000,000 pounds of marine life were captured. Unfortunately, of that 800 million, up to 90% of that could be bycatch, or unwanted organisms caught. Along with bycatch, large marine ecosystems are destroyed using this method. Not only do the nets take large amounts of unwanted fish, but it also is the leading causes of physical marine ecosystem damage.";
 </string>
           </argument>
         </arguments>

@@ -117,29 +117,20 @@ depth = -1000;
           <argument>
             <kind>1</kind>
             <string>/// Draw money if in any of the buildings
-if (room == rm_bank)
+if (room != rm_temp &amp;&amp; room != rm_menu)
 {
-    draw_set_color(c_white);
-    draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
-} 
-else if (room == rm_mining)
-{
-    draw_set_color(c_white);
-    draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
-}
-else if (room == rm_fishing)
-{
-    draw_set_color(c_white);
-    draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
-}
-else if (room == rm_company)
-{
-    draw_set_color(c_white);
-    draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
+    if (room == rm_fishing &amp;&amp; obj_control.info_fishing_trawl == false &amp;&amp; obj_control.info_fishing_drift == false)
+    {
+        draw_set_color(c_white);
+        draw_set_font(fnt_money);
+        draw_text(45, 85, "Cash: " + string(global.money));
+    }
+    else if (room == rm_mining &amp;&amp; obj_control.info_mining_surface == false &amp;&amp; obj_control.info_mining_subsurface == false)
+    {
+        draw_set_color(c_white);
+        draw_set_font(fnt_money);
+        draw_text(45, 85, "Cash: " + string(global.money));
+    }
 }
 </string>
           </argument>
@@ -171,15 +162,21 @@ if (room == rm_company)
 }
 else if (room == rm_fishing)
 {
-    draw_set_color(c_white);
-    draw_set_font(fnt_money);
-    draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
+    if (obj_control.info_fishing_trawl == false &amp;&amp; obj_control.info_fishing_drift == false)
+    {
+        draw_set_color(c_white);
+        draw_set_font(fnt_money);
+        draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
+    }
 }
 else if (room == rm_mining)
 {
-    draw_set_color(c_white);
-    draw_set_font(fnt_money);
-    draw_text(45, 105, "Mining profit: " + string(global.mining_profit));
+    if (obj_control.info_mining_surface == false &amp;&amp; obj_control.info_mining_subsurface == false)
+    {
+        draw_set_color(c_white);
+        draw_set_font(fnt_money);
+        draw_text(45, 105, "Mining profit: " + string(global.mining_profit));
+    }
 }
 </string>
           </argument>
@@ -208,6 +205,7 @@ if (info_fishing_trawl == true)
     instance_create(room_width/2, room_height/2, obj_info_box);
     // write text
     draw_set_color(c_white);
+    draw_text_ext(30, 76, obj_info_trawl.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
 }
@@ -217,6 +215,7 @@ else if (info_fishing_drift == true)
     instance_create(room_width/2, room_height/2, obj_info_box);
     // write text
     draw_set_color(c_white);
+    draw_text_ext(30, 76, obj_info_drift.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
 }
@@ -226,6 +225,7 @@ else if (info_mining_surface == true)
     instance_create(room_width/2, room_height/2, obj_info_box);
     // write text
     draw_set_color(c_white);
+    draw_text_ext(30, 76, obj_info_surface.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
 }
