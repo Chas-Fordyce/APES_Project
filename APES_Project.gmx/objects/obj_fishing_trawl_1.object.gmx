@@ -77,7 +77,7 @@ description = "Bottom trawling is a method of fishing where large nets with weig
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_upgrade_cost_fishing</script>
+            <script>scr_fishing_trawl_upgrades_first</script>
           </argument>
           <argument>
             <kind>0</kind>

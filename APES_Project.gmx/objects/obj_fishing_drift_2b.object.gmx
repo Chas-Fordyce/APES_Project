@@ -78,7 +78,7 @@ description = "Put more nets in the water.#####Each upgrade increases profits by
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_upgrade_cost_fishing</script>
+            <script>scr_mining_surface_upgrades_new</script>
           </argument>
           <argument>
             <kind>0</kind>

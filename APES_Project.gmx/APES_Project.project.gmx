@@ -94,6 +94,14 @@
     <scripts name="Fishing">
       <script>scripts\scr_fishing_upgrades.gml</script>
       <script>scripts\scr_upgrade_cost_fishing.gml</script>
+      <scripts name="Bottom Trawling">
+        <script>scripts\scr_fishing_trawl_upgrades_first.gml</script>
+        <script>scripts\scr_fishing_trawl_upgrades.gml</script>
+      </scripts>
+      <scripts name="Drift-Netting">
+        <script>scripts\scr_mining_surface_upgrades_first_new.gml</script>
+        <script>scripts\scr_mining_surface_upgrades_new.gml</script>
+      </scripts>
     </scripts>
   </scripts>
   <fonts name="fonts">

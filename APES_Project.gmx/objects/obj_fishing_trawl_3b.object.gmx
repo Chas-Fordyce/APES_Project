@@ -78,7 +78,7 @@ description = "Increase the holding capacity for fish in each boat.###Each upgra
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_upgrade_cost_fishing</script>
+            <script>scr_fishing_trawl_upgrades</script>
           </argument>
           <argument>
             <kind>0</kind>

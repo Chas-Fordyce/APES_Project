@@ -78,7 +78,7 @@ description = "Add more boats to your fleet.####Each upgrade increases profits b
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_upgrade_cost_fishing</script>
+            <script>scr_fishing_trawl_upgrades</script>
           </argument>
           <argument>
             <kind>0</kind>
