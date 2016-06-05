@@ -133,25 +133,21 @@ if (room == rm_fishing &amp;&amp; obj_control.info_fishing_trawl == false &amp;&
 {
     draw_set_color(c_white);
     draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
 }
 else if (room == rm_mining &amp;&amp; obj_control.info_mining_surface == false &amp;&amp; obj_control.info_mining_subsurface == false)
 {
     draw_set_color(c_white);
     draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
 }
 else if (room == rm_bank)
 {
     draw_set_color(c_white);
     draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
 }
 else if (room == rm_company)
 {
     draw_set_color(c_white);
     draw_set_font(fnt_money);
-    draw_text(45, 85, "Cash: " + string(global.money));
 }
 </string>
           </argument>
@@ -178,8 +174,6 @@ if (room == rm_company)
 {
     draw_set_color(c_white);
     draw_set_font(fnt_money);
-    draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
-    draw_text(45, 125, "Mining profit:  " + string(global.mining_profit));
 }
 else if (room == rm_fishing)
 {
@@ -187,7 +181,6 @@ else if (room == rm_fishing)
     {
         draw_set_color(c_white);
         draw_set_font(fnt_money);
-        draw_text(45, 105, "Fishing profit: " + string(global.fishing_profit));
     }
 }
 else if (room == rm_mining)
@@ -196,7 +189,6 @@ else if (room == rm_mining)
     {
         draw_set_color(c_white);
         draw_set_font(fnt_money);
-        draw_text(45, 105, "Mining profit: " + string(global.mining_profit));
     }
 }
 </string>
@@ -265,6 +257,7 @@ else if (info_mining_subsurface == true)
     draw_text_ext(30, 76, obj_info_subsurface.description, 50, 964);
     // show x button
     instance_create(46, 46, obj_info_close);
+    // draw image
     instance_create(room_width/2+250, 630, obj_info_img_subsurface);
 }
 </string>

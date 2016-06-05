@@ -60,6 +60,7 @@ if (mouse_check_button_released(mb_left) &amp;&amp; position_meeting(mouse_x,mou
     with(obj_info_img_drift) { instance_destroy(); }
     with(obj_info_img_surface) { instance_destroy(); }
     with(obj_info_img_subsurface) { instance_destroy(); }
+    instance_activate_all();
     instance_destroy();
 }
 if (room == rm_temp)
