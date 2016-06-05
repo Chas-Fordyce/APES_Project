@@ -174,41 +174,33 @@ draw_text(x+34, y-25, "$" + string(cost));
       </action>
       <action>
         <libid>1</libid>
-        <id>601</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_execute_script</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>9</kind>
-            <script>scr_mouse_hover_textbox</script>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string></string>
+            <kind>1</kind>
+            <string>/// Draw Description
+if (position_meeting(mouse_x,mouse_y, self))
+{
+    if (instance_exists(obj_info_box) == false)
+    {
+        draw_sprite(spr_textbox, 1, self.x-214, self.y);
+        draw_set_color(c_black);
+        draw_text_ext(self.x-385, self.y-95, self.description, 25, 300);
+        draw_set_color(c_red);
+        draw_text(self.x-385, self.y, self.cost);
+    }
+}
+</string>
           </argument>
         </arguments>
       </action>
