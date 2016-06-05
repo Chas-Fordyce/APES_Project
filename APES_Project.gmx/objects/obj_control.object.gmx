@@ -129,20 +129,29 @@ depth = -1000;
           <argument>
             <kind>1</kind>
             <string>/// Draw money if in any of the buildings
-if (room != rm_temp &amp;&amp; room != rm_menu)
+if (room == rm_fishing &amp;&amp; obj_control.info_fishing_trawl == false &amp;&amp; obj_control.info_fishing_drift == false)
 {
-    if (room == rm_fishing &amp;&amp; obj_control.info_fishing_trawl == false &amp;&amp; obj_control.info_fishing_drift == false)
-    {
-        draw_set_color(c_white);
-        draw_set_font(fnt_money);
-        draw_text(45, 85, "Cash: " + string(global.money));
-    }
-    else if (room == rm_mining &amp;&amp; obj_control.info_mining_surface == false &amp;&amp; obj_control.info_mining_subsurface == false)
-    {
-        draw_set_color(c_white);
-        draw_set_font(fnt_money);
-        draw_text(45, 85, "Cash: " + string(global.money));
-    }
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 85, "Cash: " + string(global.money));
+}
+else if (room == rm_mining &amp;&amp; obj_control.info_mining_surface == false &amp;&amp; obj_control.info_mining_subsurface == false)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 85, "Cash: " + string(global.money));
+}
+else if (room == rm_bank)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 85, "Cash: " + string(global.money));
+}
+else if (room == rm_company)
+{
+    draw_set_color(c_white);
+    draw_set_font(fnt_money);
+    draw_text(45, 85, "Cash: " + string(global.money));
 }
 </string>
           </argument>
