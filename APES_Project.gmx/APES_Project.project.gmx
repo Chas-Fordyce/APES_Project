@@ -102,8 +102,8 @@
         <script>scripts\scr_fishing_trawl_upgrades.gml</script>
       </scripts>
       <scripts name="Drift-Netting">
-        <script>scripts\scr_mining_surface_upgrades_first_new.gml</script>
-        <script>scripts\scr_mining_surface_upgrades_new.gml</script>
+        <script>scripts\scr_fishing_drift_upgrades_first.gml</script>
+        <script>scripts\scr_fishing_drift_upgrades.gml</script>
       </scripts>
     </scripts>
   </scripts>

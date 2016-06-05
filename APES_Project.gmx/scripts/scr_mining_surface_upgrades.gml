@@ -6,11 +6,11 @@ if (global.money >= self.cost)
         {
             if (self.level < 4)
             {
-                global.mining_profit += self.upgrade;
+                global.mining_profit += self.upgrade*global.mining_profit;
             }
             else if (self.level == 4 && self.upgradeable == true)
             {
-                global.mining_profit += self.upgrade;
+                global.mining_profit += self.upgrade*global.mining_profit;
                 self.upgradeable = false;
             }
             scr_upgrade_change();

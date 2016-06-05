@@ -31,7 +31,7 @@ image_speed = 0;
 // Set level
 level = 0;
 // Set upgrade percentage
-upgrade = 4;
+upgrade = .04;
 upgradeable = true;
 cost = 1000;
 </string>
@@ -78,7 +78,7 @@ description = "Leave nets in the water for an increased period of time.####Each 
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_mining_surface_upgrades_new</script>
+            <script>scr_fishing_drift_upgrades</script>
           </argument>
           <argument>
             <kind>0</kind>

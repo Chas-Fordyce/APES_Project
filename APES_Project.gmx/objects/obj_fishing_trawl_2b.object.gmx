@@ -31,7 +31,7 @@ image_speed = 0;
 // Set level
 level = 0;
 // Set upgrade percentage
-upgrade = 7;
+upgrade = .07;
 upgradeable = true;
 cost = 1000;
 </string>
