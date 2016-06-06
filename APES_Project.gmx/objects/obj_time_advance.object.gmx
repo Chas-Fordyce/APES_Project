@@ -64,6 +64,66 @@ if (month == 12)
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Messages based on year-to-donations
+// Less than needed
+if (year == 5 &amp;&amp; obj_donate.counter &lt; 1)
+{
+    instance_create(256, 380, obj_mes1);
+}
+
+if (year == 10 &amp;&amp; obj_donate.counter &lt; 2)
+{
+    instance_create(256, 380, obj_mes1);
+}
+if (year == 15 &amp;&amp; obj_donate.counter &lt; 3)
+{
+    instance_create(256, 380, obj_mes1);
+}
+
+if (year == 20 &amp;&amp; obj_donate.counter &lt; 4)
+{
+    instance_create(256, 380, obj_mes1);
+}
+// More than needed
+if (year == 5 &amp;&amp; obj_donate.counter &gt; 1)
+{
+    instance_create(256, 380, obj_mesA);
+}
+
+if (year == 10 &amp;&amp; obj_donate.counter &gt; 2)
+{
+    instance_create(256, 380, obj_mesA);
+}
+
+if (year == 15 &amp;&amp; obj_donate.counter &gt; 3)
+{
+    instance_create(256, 380, obj_mesA);
+}
+
+if (year == 20 &amp;&amp; obj_donate.counter &gt; 4)
+{
+    instance_create(256, 380, obj_mesA);
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
     <event eventtype="6" enumb="7">
       <action>

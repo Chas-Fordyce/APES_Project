@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>/// Sets Base Cost
 cost = 5000;
+counter = 0;
 </string>
           </argument>
         </arguments>
@@ -77,6 +78,7 @@ description =
     global.profit = 1;
     global.money -= cost;
     cost *= 1.5;
+    counter++;
 }
 </string>
           </argument>

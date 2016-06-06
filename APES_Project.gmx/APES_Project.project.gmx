@@ -58,6 +58,10 @@
     <sprites name="Company">
       <sprite>sprites\spr_time_advance</sprite>
       <sprite>sprites\spr_donate</sprite>
+      <sprites name="Messages">
+        <sprite>sprites\spr_mes1</sprite>
+        <sprite>sprites\spr_mesA</sprite>
+      </sprites>
     </sprites>
     <sprites name="Info">
       <sprite>sprites\spr_info_close</sprite>
@@ -157,6 +161,10 @@
     <objects name="Company">
       <object>objects\obj_time_advance</object>
       <object>objects\obj_donate</object>
+      <objects name="Messages">
+        <object>objects\obj_mes1</object>
+        <object>objects\obj_mesA</object>
+      </objects>
     </objects>
     <objects name="Info">
       <object>objects\obj_info_trawl</object>

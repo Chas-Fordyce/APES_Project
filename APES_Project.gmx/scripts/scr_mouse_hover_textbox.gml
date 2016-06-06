@@ -14,6 +14,7 @@ if (instance_exists(obj_info_box) == false)
         draw_text(x+34, y-25, "Fully upgraded!");
     }
 }
+
 // Draw Description Textbox
 if (position_meeting(mouse_x,mouse_y, self))
 {
@@ -34,3 +35,4 @@ if (position_meeting(mouse_x,mouse_y, self))
         }
     }
 }
+
