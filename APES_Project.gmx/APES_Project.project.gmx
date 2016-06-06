@@ -16,6 +16,7 @@
       <sprite>sprites\spr_music_setting</sprite>
       <sprite>sprites\spr_exit</sprite>
       <sprite>sprites\spr_volume</sprite>
+      <sprite>sprites\spr_moneyGIF</sprite>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\spr_player</sprite>
@@ -123,6 +124,7 @@
       <object>objects\obj_music_setting</object>
       <object>objects\obj_exit</object>
       <object>objects\obj_volume</object>
+      <object>objects\obj_moneyGIF</object>
     </objects>
     <objects name="Trees">
       <objects name="Mining">
